@@ -1,6 +1,6 @@
 {
-    "name": "jsconfeu-talk",
-    "author": "Patrick Dubroy <pdubroy@gmail.com>",
+    "name": "idgrep",
+    "author": "Casiano Rodriguez <crguezl@ull.edu.es>",
     "main": "dist/idgrep.js",
     "bin": {
         "idgrep": "dist/idgrep.js"
@@ -9,9 +9,7 @@
         "build": "tsc",
         "dev": "tsc --watch",
         "start": "node dist/idgrep.js",
-        "grep": "npm run build && node dist/idgrep.js dist/hacky.js",
-        "publish": "git ci -am modified && git push origin master",
-        "private": "git ci -am private && git push private private"
+        "grep": "npm run build && node dist/idgrep.js dist/hacky.js"
     },
     "dependencies": {
         "commander": "*",
@@ -28,5 +26,5 @@
         "@types/estraverse": "^5.1.0"
     },
     "version": "0.1.0",
-    "description": "Example for PL ULL"
+    "description": "Example of how to use espree and estraverse for the subject Procesadores de Lenguajes at ULL"
 }
