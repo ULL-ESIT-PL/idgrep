@@ -10,7 +10,7 @@ See crguezl [PL 24/25 course book, section"Introduction to Espree"](https://apun
 
 ## Setup
 
-1. Install nvm and node
+1. Install nvm and node or open the repo in a GH codespace
 2. Install dependencies:
    ```bash
    npm install
