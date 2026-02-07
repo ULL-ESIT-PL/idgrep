@@ -1,6 +1,11 @@
-# IDGrep - TypeScript Version
+# IDGrep 
 
 A command-line tool that searches for identifier patterns in JavaScript/TypeScript files using AST parsing.
+
+## Context
+
+A "hello world" to familiarize the ULL PL students with AST-based code analysis. 
+It introduces espree, estraverse, commander, regular expressions and typescript.
 
 ## Setup
 
