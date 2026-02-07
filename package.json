@@ -12,7 +12,8 @@
         "build": "tsc",
         "dev": "tsc --watch",
         "start": "node dist/index.js dist/hacky.js",
-        "grep": "npm run build && node dist/index.js dist/hacky.js"
+        "grep": "npm run build && node dist/index.js dist/hacky.js",
+        "pattern": "node dist/index.js -p 'hack|another' dist/hacky.js"
     },
     "dependencies": {
         "commander": "^11.1.0",
