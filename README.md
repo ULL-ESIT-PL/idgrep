@@ -1,6 +1,6 @@
 # IDGrep 
 
-A command-line tool that searches for identifier patterns in JavaScript/TypeScript files using AST parsing.
+A command-line tool that searches for identifier patterns in JavaScript files using AST parsing.
 
 ## Context
 
