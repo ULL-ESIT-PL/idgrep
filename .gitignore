@@ -1,0 +1,12 @@
+bower_components
+node_modules
+.vscode/
+alus
+escodegen/
+out.js
+
+# TypeScript
+dist/
+*.tsbuildinfo
+*.log
+.DS_Store
