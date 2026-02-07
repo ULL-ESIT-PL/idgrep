@@ -9,16 +9,20 @@ It introduces espree, estraverse, commander, regular expressions and typescript.
 
 ## Setup
 
-1. Install dependencies:
+1. Install nvm and node
+2. Install dependencies:
    ```bash
    npm install
    ```
-
-2. Build the project:
+3. Build the project:
    ```bash
    npm run build
    ```
-
+4. Run the tool on the example file:
+   ```bash
+   npm start
+   ```
+   
 ## Usage
 
 ```bash
