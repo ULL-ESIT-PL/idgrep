@@ -32,19 +32,14 @@ node dist/idgrep.js -p "your_pattern" file1.js file2.js
 - `npm run build` - Compile TypeScript to JavaScript
 - `npm run dev` - Watch mode for development (auto-recompile on changes)
 - `npm start` - Run the compiled version
-
 ## Project Structure
 
 - `src/` - TypeScript source files
-  - `idgrep.ts` - Main CLI application
-  - `hacky.ts` - Test file
-- `dist/` - Compiled JavaScript output
-- `tsconfig.json` - TypeScript configuration
+    - `index.ts` - Main CLI application
+    - `idgrep.ts`- Search library
+- `dist/`- Output folder 
+- `dist/hacky.js` - Input example 
+- `tsconfig.json` - TypeScript configuration with strict type checking
+- `package.json` - Project dependencies and scripts
 
-## Migration from JavaScript
 
-This project has been migrated from JavaScript to TypeScript, adding:
-- Type safety with strict TypeScript configuration
-- Proper interfaces for AST nodes and locations
-- Type annotations for function parameters and return types
-- Development tooling with watch mode

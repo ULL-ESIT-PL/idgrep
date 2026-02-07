@@ -11,8 +11,8 @@
     "scripts": {
         "build": "tsc",
         "dev": "tsc --watch",
-        "start": "node dist/idgrep.js",
-        "grep": "npm run build && node dist/idgrep.js dist/hacky.js"
+        "start": "node dist/index.js dist/hacky.js",
+        "grep": "npm run build && node dist/index.js dist/hacky.js"
     },
     "dependencies": {
         "commander": "^11.1.0",
