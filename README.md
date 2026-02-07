@@ -46,7 +46,7 @@ node dist/idgrep.js -p "your_pattern" file1.js file2.js
 - `tsconfig.json` - TypeScript configuration with strict type checking
 - `package.json` - Project dependencies and scripts
 
-## Exercise
+## Exercise for students
 
 Read in detail [PL 24/25 course book, section"Introduction to Espree"](https://apuntes-pl.vercel.app/topics/introduction-to-pl/esprima) for a JS version and more detailed introduction to espree and estraverse.
 
