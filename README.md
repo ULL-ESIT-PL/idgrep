@@ -39,12 +39,12 @@ node dist/idgrep.js -p "your_pattern" file1.js file2.js
 ## Project Structure
 
 - `src/` - TypeScript source files
-    - `index.ts` - Main CLI application
-    - `idgrep.ts`- Search library
+    - `[index.ts](src/index.ts)` - Main CLI application
+    - [`idgrep.ts`](src/idgrep.ts) - Search library
 - `dist/`- Output folder 
-- `dist/hacky.js` - Input example 
-- `tsconfig.json` - TypeScript configuration with strict type checking
-- `package.json` - Project dependencies and scripts
+- [`dist/hacky.js`](dist/hacky.js) - Input example 
+- [`tsconfig.json`](tsconfig.json) - TypeScript configuration with strict type checking
+- [`package.json`](package.json) - Project dependencies and scripts
 
 ## Exercise for students
 
