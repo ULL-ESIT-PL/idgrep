@@ -6,7 +6,7 @@ A command-line tool that searches for identifier patterns in JavaScript/TypeScri
 
 A "hello world" to familiarize the ULL PL students with AST-based code analysis. 
 It introduces espree, estraverse, commander, regular expressions and typescript.
-See crguezl [PL 24/25 course book, section"Introduction to Espree"](https://apuntes-pl.vercel.app/topics/introduction-to-pl/esprima#traversing-with-estraverse) for a JS version and more detailed explanations.
+See crguezl [PL 24/25 course book, section"Introduction to Espree"](https://apuntes-pl.vercel.app/topics/introduction-to-pl/esprima#traversing-with-estraverse) for a JS version and more detailed introduction to espree and estraverse.
 
 ## Setup
 
