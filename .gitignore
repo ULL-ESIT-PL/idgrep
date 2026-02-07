@@ -10,3 +10,7 @@ dist/
 *.tsbuildinfo
 *.log
 .DS_Store
+
+# Testing
+coverage/
+tests/test-sample.js
